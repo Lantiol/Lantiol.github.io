@@ -6,6 +6,11 @@ body{
     font-family: 'Trebuchet MS';
     background-size: cover;
     background-repeat: no-repeat;
+    
+    
+}
+html{
+    width: fit-content;
 }
 .locations{
     display: flex;
@@ -19,6 +24,7 @@ body{
 .sh{
     display: flex;
     flex-direction: row;
+    
 }    
 .bree-land{
     box-sizing: border-box;
@@ -35,7 +41,9 @@ body{
 }
 .er{
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
+   
+     
 }
 .lone-lands{
     box-sizing: border-box;
@@ -52,6 +60,7 @@ body{
     margin-top: 50px;
     margin-bottom: 0;   
     position: relative;
+   
 }
 .shire-img{
     height: 450px;
@@ -75,6 +84,7 @@ body{
     background-repeat: round;
     height: 50%;
     line-height: 18px; 
+
 }
 .title-bree-lands{
     background-color: #222116;
@@ -84,7 +94,7 @@ body{
     position: relative;
     margin-bottom: 0;
     box-sizing: border-box; 
-    
+    width: auto;
 }
 .bree-lands-img{
     height: 450px;
@@ -116,6 +126,7 @@ body{
     text-align: center;
     margin-bottom: 0;   
     position: relative;
+    width: auto;
 }
 .ered-luin-img{
     height: 450px;
@@ -146,6 +157,7 @@ body{
     text-align: center;
     margin-bottom: 0;   
     position: relative;
+    width: auto;
 }
 .lone-lands-img{
     height: 450px;
@@ -179,27 +191,112 @@ ol {
     counter-increment: li; 
     content: counters(li,".") ". "; 
 }
-@media screen and (max-width: 600px) {
-    max-width: 600px;
-    
-}
-@media screen and (max-width: 720px) {
-    max-width: 720px;
-    
-}@media screen and (max-width: 1080px) {
-    max-width: 1080px;
-    
-    
-}
-@media screen and (max-width: 1280px) {
-    max-width: 1280px;
-   
-}
-@media screen and (max-width: 1440px) {
-    max-width: 1440px;
-}
-@media screen and (max-width: 1600px) {
-    max-width: 1600px;
-}@media screen and (max-width: 1920px) {
-    max-width: 1920px;
+
+/*@media screen and (max-width:1080px) {
+    .sh{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .br{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .er{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ln{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .shire-img{
+        max-width: 800px;
+        max-height: 450px;
+        left: 0;
+    }
+    .bree-lands-img{
+        max-width: 800px;
+        max-height: 450px;
+        left: 0;
+    }
+    .ered-luin-img{
+        max-width: 800px;
+        max-height: 450px;
+        left: 0;
+    }
+    .lone-lands-img{
+        max-width: 800px;
+        max-height: 450px;
+        left: 0;
+    }
+    .shire-text{
+        margin: 0;
+    }
+    .bree-lands-text{
+        margin: 0;
+    }
+    .ered-luin-text{
+        margin: 0;
+    }
+    .lone-lands-text{
+        margin: 0;
+    }*/
+    @media screen and (max-width:1280px){
+        .sh{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .br{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .er{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .ln{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .shire-img{
+            max-width: 800px;
+            max-height: 450px;
+            left: 0;
+        }
+        .bree-lands-img{
+            max-width: 800px;
+            max-height: 450px;
+            left: 0;
+        }
+        .ered-luin-img{
+            max-width: 800px;
+            max-height: 450px;
+            left: 0;
+        }
+        .lone-lands-img{
+            max-width: 800px;
+            max-height: 450px;
+            left: 0;
+        }
+        .shire-text{
+            margin: 0;
+        }
+        .bree-lands-text{
+            margin: 0;
+        }
+        .ered-luin-text{
+            margin: 0;
+        }
+        .lone-lands-text{
+            margin: 0;
+        }
+    }
 }
