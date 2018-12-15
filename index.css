@@ -55,3 +55,25 @@ body{
     height: 100px;
     
 }
+.help-text{
+    position: absolute;
+    border: 5px;
+    border-style: groove;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: 400px;
+    margin: 100px;
+    bottom: 0;
+}
+.text{
+    
+    padding: 10px 20px ;
+    z-index: 100;
+    background-image: url(img/per.png);
+    text-align: center;
+    box-sizing: border-box; 
+    background-repeat: round;
+    font-size: 23px;
+    
+}

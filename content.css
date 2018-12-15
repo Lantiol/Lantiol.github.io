@@ -9,26 +9,33 @@ body{
     
     
 }
+main{
+   
+}
 html{
-    width: fit-content;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 .locations{
     display: flex;
     flex-direction: column;
-
+    flex-wrap: wrap;
+    
     }
 .shire{
     box-sizing: border-box;
-    
+    width: 1536px;
+    margin: 0 auto;
 }
 .sh{
     display: flex;
     flex-direction: row;
     
 }    
-.bree-land{
+.bree-lands{
     box-sizing: border-box;
-    
+    width: 1536px;
+    margin: 0 auto;
     
 }
 .br{
@@ -37,7 +44,8 @@ html{
 }
 .ered-luin{
     box-sizing: border-box;
-    
+    width: 1536px;
+    margin: 0 auto;
 }
 .er{
     display: flex;
@@ -47,6 +55,8 @@ html{
 }
 .lone-lands{
     box-sizing: border-box;
+    width: 1536px;
+    margin: 0 auto;
 }
 .ln{
     display: flex;
@@ -54,6 +64,8 @@ html{
 }
 .evendim{
     box-sizing: border-box;
+    width: 1536px;
+    margin: 0 auto;
 }
 .ev{
     display: flex;
@@ -61,6 +73,8 @@ html{
 }
 .forochel{
     box-sizing: border-box;
+    width: 1536px;
+    margin: 0 auto;
 }
 .fo{
     display: flex;
@@ -98,7 +112,7 @@ html{
     background-repeat: round;
     height: 50%;
     line-height: 18px; 
-
+    
 }
 .title-bree-lands{
     background-color: #222116;
